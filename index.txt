@@ -26,18 +26,21 @@
 <p aling="right"> <font color="purple" size="4" face="Cambria">:P pokazanie języka </front> </p> <br>
 <p aling="right"> <font color="pink" size="5" face="Arial Nova">:D szeroki uśmiech </front> </p> <br>
 <p aling="right"> <font color="yellow" size="6" face="Aptos">;) uśmiech z przymrużeniem oka </front> </p> <br>
+<H4 ALIGN=left> Żart o babie</H4>
 <fieldset> 
 <legend>Baba u lekarza</legend>
 Przychodzi baba do lekarza   <br /> 
 a lekarz też baba            <br />           
 </fieldset> 
+<H4 ALIGN=left>Żart o blondynce</H4>
 <fieldset> 
-<legend>Żart o blondynce</legend> 
+<legend>Blondynki w samochodzie</legend> 
  Dlaczego trzy blondynki zamarzły ostatnio w kabriolecie w kinie samochodowym?  <br /> 
 – Chciały zobaczyć film „Zimą zamknięte”.  <br />       
 </fieldset> 
+<H4 ALIGN=left>Żart o informatyku</H4>
 <fieldset> 
-<legend>Żart o informatyku</legend> 
+<legend>URodziny Informatyka</legend> 
  Co mówi informatyk, kiedy dostanie na urodziny pendrive?<br />  
 Dzięki za pamięć.<br />           
 </fieldset> 

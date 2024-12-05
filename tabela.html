@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="Author" content="Mikołaj Olter" /> 
+	    <meta name="Description" content="sigma opis strony" />
+        <meta title="Tabela">
+    </head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border: 4px solid #3f4f00;
+            border-top: 2px;
+            border-collapse: collapse;
+        }
+
+        table caption {
+            border: 4px #3f4f00;
+            background-color: #262626;
+            color: white;
+            padding: 4px;
+        }
+
+        th {
+            border: 2px solid #3f4f00;
+            padding: 10px;
+        }
+
+        tr {
+            text-align: center;
+        }
+
+        thead tr th {
+            background-color: #f38684;
+        }
+
+        tbody tr td {
+            border: 2px solid #3f4f00;
+        }
+
+        #lowlabel {
+            background-color: #fda5a3;
+        }
+
+        #cooler {
+            background-color: #185864;
+        }
+
+        .col-one td {
+            background-color: #885353;
+        }
+
+        .col-two td {
+            background-color: #af5e5d;
+        }
+
+        .col-three td {
+            background-color: #db5b59;
+        }
+        
+    </style>
+    <body>
+        <h3>Tutaj będzie tabela</h3><br><br><br>
+        <table>
+            <caption>Dane komputerowe - Mikołaj Olter 2Kg1</caption>
+            <thead>
+                <tr>
+                    <th>Model karty graficznej</th>
+                    <th>Taktowanie bazowe pamięci VRAM</th>
+                    <th>Rozmiar pamięci VRAM</th>
+                    <th>Szyna pamięci VRAM</th>
+                    <th>Typ chłodzenia karty graficznej</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="col-one">
+                    <td>RTX 4080</td>
+                    <td>2310 MHz</td>
+                    <td>16 GB</td>
+                    <td>256-bit</td>
+                    <td rowspan="6" id="cooler">Aktywne</td>
+                </tr>
+                <tr class="col-one">
+                    <td>RTX 4070</td>
+                    <td>1920 MHz</td>
+                    <td>12 GB</td>
+                    <td>192-bit</td>
+                </tr>
+                <tr class="col-two">
+                    <td>RTX 4060</td>
+                    <td>1830 MHz</td>
+                    <td>8 GB</td>
+                    <td>128-bit</td>
+                </tr>
+                <tr class="col-two">
+                    <td>RTX 3080</td>
+                    <td>1800 MHz</td>
+                    <td>10 GB</td>
+                    <td>320-bit</td>
+                </tr>
+                <tr class="col-three">
+                    <td>RTX 3070</td>
+                    <td>1500 MHz</td>
+                    <td>12 GB</td>
+                    <td>256-bit</td>
+                </tr>
+                <tr class="col-three">
+                    <td>RTX 3060</td>
+                    <td>1777 MHz</td>
+                    <td>12 GB</td>
+                    <td>128-bit</td>
+                </tr>
+                <tr>
+                    <td colspan="5" id="lowlabel">Dane Komputerowe</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+           
+        <a href="index.html">Powrót do strony głównej</a>
+    </body>
+</html>
